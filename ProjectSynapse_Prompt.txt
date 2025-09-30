@@ -1,0 +1,67 @@
+MEGA PROMPT: Architecting "Project Synapse" - An Agentic AI Platform for Workforce Transformation
+YOUR ROLE: Chief AI Architect
+OBJECTIVE: Produce a comprehensive technical and strategic blueprint for a multi-agent AI platform designed to solve the fundamental disconnect in the global job market.
+
+1. PROJECT MANDATE: The "Project Synapse" Vision
+We are building a unified, dual-sided AI platform that serves two primary user bases with a single, integrated goal: to make skills the universal currency of the labor market.
+
+Side A: The AI Career Coach & Personal Architect for Every Professional
+
+The Problem: Individuals don't know what skills they have, what skills are needed for the jobs of tomorrow, or how to bridge the gap.
+
+The Solution: An intelligent, proactive agent that acts as a lifelong career companion. A user can provide their resume, LinkedIn profile, or even describe their experience in plain text. The platform will:
+
+Deconstruct & Map: Extract and codify their explicit and implicit skills into a dynamic, living "Skills DNA" profile.
+
+Analyze & Project: Compare their "Skills DNA" against real-time job market data to identify high-potential career paths and critical skill gaps.
+
+Prescribe & Guide: Generate a hyper-personalized, adaptive learning path. This isn't a static list of courses; it's a dynamic plan that curates micro-learning content, project recommendations, and mentorship opportunities tailored to close their specific gaps efficiently.
+
+Connect & Optimize: Connect them to relevant job opportunities where their profile is a strong match.
+
+Side B: The AI Talent Scout & Strategic Workforce Planner for Enterprises
+
+The Problem: Employers struggle with inefficient, keyword-based resume screening, leading to poor-quality candidates, high hiring costs, and a lack of visibility into the actual skills of their workforce.
+
+The Solution: An intelligent sourcing and assessment engine that moves beyond the resume. For a given job role, the platform will:
+
+Define & Deconstruct: Analyze a job description to create a detailed "Role DNA," a structured model of required skills, competencies, and seniority levels.
+
+Source & Match: Proactively search the platform's talent pool (from Side A) to find candidates whose "Skills DNA" aligns with the "Role DNA," focusing on potential and aptitude, not just past job titles.
+
+Assess & Qualify: Conduct initial, adaptive, AI-driven interviews. This goes beyond simple Q&A; it involves simulating real-world tasks, evaluating problem-solving approaches, and measuring competency through interactive scenarios.
+
+Shortlist & Recommend: Provide employers with a curated shortlist of pre-vetted, highly qualified candidates, complete with a breakdown of their strengths and developmental areas relative to the role.
+
+The Core Technological Bet: This entire ecosystem will be powered by a multi-agent AI architecture where specialized, autonomous AI agents work together to perform these complex, interconnected tasks. The CEO has described this as a "21-layer architecture," indicating a highly structured, modular, and complex system design.
+
+2. OUTPUT REQUIREMENTS:
+1. DECOMPOSE the "21-Layer Architecture"
+Propose a logical and technically sound breakdown of what these 21 layers could represent. Structure them into cohesive groups (Data, Core AI, Agentic Orchestration, Services, Experience). Provide a name and a one-sentence description for each of the 21 hypothetical layers.
+
+2. DESIGN the Multi-Agent System
+Define the key autonomous AI agents. For each, specify:
+* Agent Name & Primary Goal
+* Core Responsibilities & Tasks
+* Key Tools/Models (e.g., a specific LLM, vector database, custom algorithm)
+* Interaction Protocol with other agents.
+
+3. DETAIL the Tech Stack Implementation
+Propose a concrete, modern tech stack based on the mentioned tools (LangGraph, AWS, Python, etc.).
+* Agent Framework & Orchestration: Precisely how LangGraph manages state and flow.
+* Cloud Infrastructure (AWS): Specific services (e.g., ECS/EKS, S3, RDS, SageMaker).
+* Data & ML Ops: Tools for feature stores, model registries, pipeline orchestration.
+* Frontend/Backend: Suggested frameworks.
+
+4. MAP the High-Level System Flow
+Create two detailed sequence diagrams (described in text or Mermaid.js format) showing the end-to-end flow for:
+a) A Career Seeker's Journey: From profile upload to receiving a personalized learning plan.
+b) An Employer's Journey: From posting a job to receiving a shortlist.
+
+5. IDENTIFY Key Technical Challenges & Mitigations
+List the 5 most significant technical hurdles in building this platform and propose a strategic mitigation for each.
+
+6. PROPOSE a Phased Development Roadmap
+Outline a 3-phase plan (MVP -> Integration -> Scale) with clear objectives and timelines.
+
+Format your response using clear headings, sub-headings, bullet points, and tables where appropriate. The output should be a self-contained, actionable architectural document for a engineering team.
