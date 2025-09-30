@@ -1,0 +1,19 @@
+# .github/workflows/ml-pipeline.yml
+name: ML Pipeline
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  train-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Train Model
+        run: python train.py
+      - name: Run Tests
+        run: pytest tests/
+      - name: Deploy to Staging
+        run: python deploy.py --env staging

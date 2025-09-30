@@ -1,0 +1,4 @@
+# mlflow-config.yaml
+backend_store_uri: postgresql://mlflow:password@rds-synapse/mlflow
+default_artifact_root: s3://synapse-mlflow-artifacts/
+serving_port: 5000
